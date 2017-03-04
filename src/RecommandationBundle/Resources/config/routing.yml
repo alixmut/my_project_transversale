@@ -1,0 +1,15 @@
+recommandation_homepage:
+    path:     /
+    defaults: { _controller: RecommandationBundle:Default:index }
+
+recommandation_movie_list:
+    path:     /movie_list
+    defaults: { _controller: RecommandationBundle:MovieList:index }
+
+recommandation_movie_single:
+    path:     /movie_single
+    defaults: { _controller: RecommandationBundle:MovieSingle:index }
+
+recommandation_algorithme:
+    path:     /algorithme
+    defaults: { _controller: RecommandationBundle:Algorithme:index }
